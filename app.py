@@ -4,6 +4,7 @@ from sklearn.preprocessing import StandardScaler
 from joblib import dump, load
 import numpy as np
 from keras.models import load_model
+import tensorflow
 
 # Setting custom title and BG color
 st.set_page_config(
@@ -33,6 +34,7 @@ st.title("Rainfall prediction Model")
     # Define the sample data for button 2
 sample_data_2 = {
     'temperature': 20.1,
+
     'cloud_covr': 85,
     'pressure': 1014,
     'wind_speed': 1.2,
