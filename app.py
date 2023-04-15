@@ -85,4 +85,4 @@ with st.form(key="values"):
         st.subheader(f":green[{rainfall}]")
 
 # Display disclamier 
-st.write('Disclaimer: The rainfall prediction model presented here is still in the experimentalstage and is provided for informational purposes only. Please note that the developer of this model is not liable for any direct, indirect, incidental, consequential, or punitive damages arising from the use of the model or its results. Version 1.0, Last updated: April-2023. Developed by Mr.Sai Naing Lynn Oo (TP068393)')
+st.write('Disclaimer: The rainfall prediction model presented here is still in the experimentalstage and is provided for informational purposes only. Please note that the developer of this model is not liable for any direct, indirect, incidental, consequential, or punitive damages arising from the use of the model or its results. Version 1.0, Last updated: April-2023. Developed by Mr.Sai Naing Lynn Oo (TP068393).')
