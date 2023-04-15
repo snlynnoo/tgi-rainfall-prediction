@@ -1,3 +1,4 @@
+# Import required libraries for deployment
 import streamlit as st
 import pandas as pd
 from sklearn.preprocessing import StandardScaler
